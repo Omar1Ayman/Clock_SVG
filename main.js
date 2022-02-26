@@ -1,18 +1,3 @@
-    // let square = document.getElementById("test")
-
-
-    // for(let i=1;i<400;i++){
-    // let line = document.createElementNS("http://www.w3.org/2000/svg" ,"line")
-    // line.setAttribute( 'x1',i*10)
-    // line.setAttribute( 'y1',0) 
-    // line.setAttribute( 'x2',i*10)
-    // line.setAttribute( 'y2',10) 
-    // line.setAttribute( 'style','stroke:#aaa;stroke-width:1;') 
-    // square.appendChild(line)
-
-    // }
-
-   
 let w = window.clock.style.width.toString().replace("px","");
 
 addToSvg('clock' , 'circle' , [ ['cx',w/2] , ['cy',w/2] , ['r' , w/2-5],['style','fill:white;stroke:black;stroke-width:10;']])
