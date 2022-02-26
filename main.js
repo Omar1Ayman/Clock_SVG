@@ -4,6 +4,7 @@ addToSvg('clock' , 'circle' , [ ['cx',w/2] , ['cy',w/2] , ['r' , w/2-5],['style'
 addToSvg('clock' , 'circle' , [ ['cx',w/2] , ['cy',w/2] , ['r' , 6],['style','fill:white;stroke:black;stroke-width:1;']])
 addToSvg('clock' , 'circle' , [ ['cx',w/2] , ['cy',w/2] , ['r' , 3],['style','stroke:black;stroke-width:1;']])
 
+
 for(let i=1;i<=12;i++){
 
         addToSvg('clock' , 'line' , 
